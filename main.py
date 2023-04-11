@@ -109,7 +109,7 @@ ortalamaNot = input("Lütfen ortalamanızı giriniz:")
 #numerik - int, double
 #type conversation -start
 ortalamaNotAsInteger = int(ortalamaNot)
-#type conversation -start
+#type conversation -end
 
 #if else blokları
 # 4 satır 1 tab/indent
@@ -144,9 +144,39 @@ if ortalama < 50 or final < 40 or vize > (final*2):
 else:
     print("Kullanıcı Geçti")
 
+#karar yapıları -end
+
+#döngüler, loops -start
+#for
+
+ogrenciler = ["Volkan","Süeda","Zühal","Selen","Ahmet"]
+
+print(len(ogrenciler))
+
+for i in range(len(ogrenciler)):
+    if i > 3:
+        break
+    print(f"{i+1}. Öğrenci: {ogrenciler[i]}")
+for i in range(10):
+    pass
+
+for i in ogrenciler:
+    print(f"Öğreenci {i}")
+
+for i in ogrenciler:
+    if i == "Volkan":
+        continue
+    print(f"Öğrenci {i}")
+
+#while
+i=0
+while i<10:
+    i= i + 1
+    if i == 3:
+        break
+    print(f"wile içerisindeki i değeri: {i}")
 
 
 
-#karar yaıları -end
 
-
+#döngüler, loops -end
