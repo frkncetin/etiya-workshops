@@ -6,7 +6,11 @@ class ogretmen():
     
     def add(liste):
         ad=input("Öğretmenin adı: ")
+        if ad == "Q":
+            return
         yas=input("Öğretmenin yaşı: ")
+        if yas == "Q":
+            return
         ogretmen1=ogretmen(ad,yas)
         liste.append(ogretmen1)
         print("\nYeni öğretmen kaydı gerçekleşti.\n")

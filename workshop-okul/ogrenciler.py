@@ -6,7 +6,11 @@ class ogrenci():
     
     def add(liste):
         ad=input("Öğrencinin adı: ")
+        if ad == "Q":
+            return
         yas=input("Öğrencinin yaşı: ")
+        if yas == "Q":
+            return
         ogrenci1=ogrenci(ad,yas)
         liste.append(ogrenci1)
         print("\nYeni öğrenci kaydı gerçekleşti.\n")

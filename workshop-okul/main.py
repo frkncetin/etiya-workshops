@@ -28,3 +28,4 @@ while True:
     elif islem == "D":
         ogretmenOku()
             
+print("Çıktık")
