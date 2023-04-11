@@ -19,16 +19,3 @@ class ogrenci():
         
     
     
-    #def numara(self):
-    #    print(f"{self.name}: Numarası: {self.number}")
-    #def isim(self):
-    #    print(f"{self.number}: Adı: {self.name}")
-    """"
-    listIsim=[]
-    listNumara=[]
-    def ogrenciKaydi(self):
-        listIsim.append(self.name)
-        listNumara.append(self.number)
-
-    print(f"Öğrenci listesi :{listIsim} {listNumara}")
-    """
